@@ -86,10 +86,8 @@ if st.button("Predict"):
     
     if prediction[0] == 1:
 					st.write("#### The patient is diagnosed with Breast Cancer.")
-					sad_animation = """
-    <img src="sad.gif" alt="Sad animation">
-    """
-					st.write(HTML(sad_animation))
+					st.image(sad.gif )
+					
     else:
 					
 					st.balloons()
