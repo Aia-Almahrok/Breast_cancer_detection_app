@@ -86,16 +86,15 @@ if st.button("Predict"):
     
     if prediction[0] == 1:
 					st.write("#### The patient is diagnosed with Breast Cancer.")
-					st.image(sad.gif )
+					st.image("https://i.pinimg.com/originals/46/09/23/460923f017d4f5019f28e6cdbae72dac.gif", use_column_width=True)
 					
     else:
 					
 					st.balloons()
 					st.write("#### The patient is not diagnosed with Breast Cancer.")
-					happy_animation = """
-    <img src="happy.gif" alt="Happy animation">
-    """
-					st.write(HTML(happy_animation))   
+					st.image("https://i.pinimg.com/originals/26/7b/13/267b13ce9d04ad66d3a2d1e804b376c4.gif", use_column_width=True)
+   
+					 
            
 	
            									
